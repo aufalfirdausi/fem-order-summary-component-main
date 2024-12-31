@@ -38,3 +38,88 @@ body {
     bottom: 20px;
     border-radius: 10px 10px 0px 0px;
 }
+
+.title {
+    font-size: larger;
+    padding: 20px 0px 20px 0px;
+}
+
+.desc-title {
+    color: grey;
+    font-size: 20px;
+    margin: 10px 45px 10px 45px;
+    text-align: center;
+}
+
+.col-price {
+    background-color: rgb(226, 226, 226);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 350px;
+    height: 100px;
+    border-radius: 10px;
+    margin: 30px 0px;
+}
+
+.right img{
+   margin: 10px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}
+
+.annual .plan {
+    color: rgb(13, 27, 97);
+    font: larger bold;
+}
+
+.annual .price {
+    font-size: larger;
+    color: grey;
+}
+
+.left {
+    padding: 0 20px;
+    font-size: large;
+    color: rgb(66, 11, 154);
+}
+
+.left .change {
+    font-weight: 40px;
+    text-decoration: line-through;
+}
+
+
+
+.button button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 17px;
+    background-color: rgb(56, 35, 190);
+    width: 350px;
+    height: 55px;
+    border-radius: 10px;
+}
+
+.button button:hover {
+    background-color: rgb(70, 48, 213);
+    transition: all 0.3s ease-in-out 0s;
+    box-shadow: 7px 7px 7px rgba(76, 76, 226, 0.643);
+    color: white;
+}
+
+.button .butt {
+    margin: 13px;
+}
+
